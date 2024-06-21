@@ -24,3 +24,21 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 let stringNumber = String(someNumber)
 console.log( typeof stringNumber);
+
+
+
+//***************************************OPERATION********************** */
+let value = 3
+let negValue = - value
+//console.log(negValue)
+let str1 = "hello"
+let str2 = "Amrita"
+let str3 = str1 + str2
+// console.log(str3)   // out is hello amrita
+// console.log("1" + 2);   // out is 12
+// console.log(1+ "2");    //out is 12
+// console.log("1"+ 2 +2);   //out is 122
+// console.log(1+2+"2");    //out is 32
+
+//see obut conversion
+
