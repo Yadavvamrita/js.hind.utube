@@ -37,3 +37,30 @@ const myFunction = function(){
 console.log(typeof bigNumber);/// type of outside temp is object
 
 
+
+
+
+
+//lecture 10   on ?+++++++++++++
+//stack and heap
+//stack is used in primitive and heap is used in non primitive
+// for ex
+let instaName = "amrita"
+let anothername = instaName
+anothername =" chaaurcode" 
+
+console.log(anothername);
+
+let userOne = {
+    email: "djhsad",
+    upi:"hbbwd",
+
+}
+let  userTwo = userOne
+userTwo.email = "dsahjdb.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
