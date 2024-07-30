@@ -30,7 +30,32 @@ console.log("amrita");
 // 2nd is execution phase
 //
 
-
+//************************************************************************ */
 // lecture 26
 // const is a scope variable
 // var is a global variable
+// false value   0, -0, BigInt , 0n, "", null, undefined, NaN
+// truethy value are .....
+// "0" , 'false' , " ", [], {}, function(){}
+
+
+// to see the object is empty or not............see downward >
+
+//  const emptyObj ={}
+// if (Object.keys(emptyObj).length ===0){
+//console.log("boject is empty");
+//}
+
+
+// nullish coalescing operator (??): null undefined
+// let val1 = 5 ?? 10         // return 5 , it start from first
+// let val1 = null ?? 10      // return 10, neglet null 
+// let val1 = undefined ?? 10    // return 10
+// let val1 = null ?? 10 ?? 20  // return 10 , ignore null and accept the first value
+// console.log(val1)
+
+
+// terniary operator
+// condition ? true: false
+const iceTeaPrice = 100
+iceTeaPrice <=80 ? console.log("less than 80"): console.log("more than 80")
